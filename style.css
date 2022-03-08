@@ -1,0 +1,214 @@
+html, body{
+    height: 100%;
+    line-height: 1;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: rgba(16, 39, 70, 1);
+}
+input{
+    border: none;
+    background: inherit;
+    outline: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, ol, li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+.wrapper{
+    overflow: hidden;
+}
+.__container{
+    max-width: 1090px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+._container{
+    max-width: 1290px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.title{
+    font-weight: 600;
+    font-size: 35px;
+    color: #102746;
+}
+.main__header{
+    margin-bottom: 176px;
+}
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav ul{
+    display: flex;
+    gap: 82px;
+}
+.header__nav li a{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.header__nav li a:hover{
+    opacity: 0.9;
+}
+.main{
+    min-height: 100vh;
+    background:linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url(img/main.jpg) no-repeat center;
+    background-size: cover;
+    padding: 56px 0 376px 0;
+}
+.main__intro{
+}
+.main__title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    max-width: 620px;
+    margin-bottom: 22px;
+}
+.main__text{
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 546px;
+    margin-bottom: 37px;
+}
+.main input{
+    background: url(icon/input.png) no-repeat left;
+    padding: 22px 0 22px 43px;
+    width: 297px;
+    margin-right: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-bottom: 3px solid #BFC0C5;
+}
+.main input::placeholder{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.main__btn{
+    display: inline-block;
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #1B7DFF;
+}
+.main__btn:hover{
+    opacity: 0.8;
+}
+.benefits__title{
+    margin-bottom: 120px;
+}
+.benefits{
+    margin-bottom: 131px;
+}
+.benefits__wrap{
+    max-width: 1260px;
+    padding: 93px 100px 112px;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    margin-top: -223px;
+}
+.benefits__cards{
+    display: flex;
+    gap: 55px;
+}
+.card__benefits_icon{
+    margin-bottom: 37px;
+}
+.card__benefits_title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.card__benefits_text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 39px;
+}
+.card__benefits_more a{
+    line-height: 24px;
+    color: #006DFE;
+    display: inline-block;
+    text-transform: uppercase;
+    background: url(icon/benefits/arrow.png) no-repeat 96%;
+    padding-right: 59px;
+}
+.card__benefits_more a:hover{
+    background: url(icon/benefits/arrow.png) no-repeat 100%;
+}
+.trip__head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+    align-items: center;
+}
+.trip__title{
+    position: relative;
+}
+.trip__title::after{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    height: 3px;
+    width: 253px;
+    background-color: #006DFE;
+}
+.trip__more a{
+    line-height: 24px;
+    text-align: right;
+    color: #006DFE;
+    text-transform: uppercase;
+    display: inline-block;
+    background: url(icon/benefits/arrow.png) no-repeat 96%;
+    padding-right: 59px;
+}
+.trip__more a:hover{
+    background: url(icon/benefits/arrow.png) no-repeat 100%;
+}
+.trip__items{
+    display: flex;
+    flex-direction: column;
+}
+.trip__items_top{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.trip__items_top img{
+    width: 100%;
+    height: auto;
+}
+.trip__items_bottom{
+    display: flex;
+    gap: 10px;
+}
