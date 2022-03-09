@@ -74,8 +74,6 @@ h1, h2, h3, h4, h5, h6{
     background-size: cover;
     padding: 56px 0 376px 0;
 }
-.main__intro{
-}
 .main__title{
     font-weight: 600;
     font-size: 50px;
@@ -259,4 +257,75 @@ h1, h2, h3, h4, h5, h6{
     transform: scale(1.05);
     transition: transform 0.6s;
     z-index: 2;
+}
+
+.areas{
+    margin-bottom: 139px;
+}
+.areas__prefecture{
+    display: flex;
+    gap: 98px;
+    margin-bottom: 65px;
+}
+.prefecture__areas_img{
+    flex: 0 1 50%;
+    background: url(img/areas/1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 0 0 27% 0;
+}
+
+.prefecture__areas_item{
+    padding: 26px 47px 49px 10px;
+    flex: 0 1 50%;
+}
+.area__title{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+}
+.area__text{
+    line-height: 24px;
+    color: #102746;
+}
+.area__more a{
+    display: inline-block;
+    line-height: 24px;
+    text-align: right;
+    color: #006DFE;
+    text-transform: uppercase;
+    display: inline-block;
+    background: url(icon/benefits/arrow.png) no-repeat 96%;
+    padding-right: 59px;
+}
+.area__more a:hover{
+    background: url(icon/benefits/arrow.png) no-repeat 100%;
+}
+.prefecture__areas_title{
+    margin-bottom: 85px;
+}
+.prefecture__areas_text{
+    margin-bottom: 58px;
+}
+
+.neighborhood__areas{
+    display: flex;
+    gap: 68px;
+}
+.neighborhood__areas_item{
+    padding: 26px 31px 13px 47px;
+    flex: 0 1 50%;
+}
+.neighborhood__areas_img{
+    flex: 0 1 50%;
+    background: url(img/areas/2.jpg) no-repeat center;
+    background-size: cover;
+    padding: 0 0 28% 0;
+}
+.neighborhood__areas_title{
+    margin-bottom: 45px;
+    max-width: 357px;
+}
+.neighborhood__areas_text{
+    margin-bottom: 94px;
 }
