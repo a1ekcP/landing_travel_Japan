@@ -446,6 +446,31 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.footer__logo{
+    padding-right: 15px;
+}
 .footer__links{
     display: flex;
+    gap: 140px;
+}
+.footer__links h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.footer__links a{
+    display: inline-block;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer__links li{
+    margin-bottom: 4px;
+}
+.footer__links li:last-child{
+    margin-bottom: 0;
+}
+.footer__links a:hover{
+    opacity: 0.6;
 }
