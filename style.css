@@ -162,6 +162,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .card__benefits_more a:hover{
     background: url(icon/benefits/arrow.png) no-repeat 100%;
+    opacity: 0.8;
 }
 .trip{
     margin-bottom: 131px;
@@ -195,6 +196,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .trip__more a:hover{
     background: url(icon/benefits/arrow.png) no-repeat 100%;
+    opacity: 0.8;
 }
 .trip__items{
     display: flex;
@@ -300,6 +302,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .area__more a:hover{
     background: url(icon/benefits/arrow.png) no-repeat 100%;
+    opacity: 0.8;
 }
 .prefecture__areas_title{
     margin-bottom: 85px;
@@ -328,4 +331,121 @@ h1, h2, h3, h4, h5, h6{
 }
 .neighborhood__areas_text{
     margin-bottom: 94px;
+}
+.places{
+    margin-bottom: 144px;
+}
+.places__title{
+    margin-bottom: 54px;
+    position: relative;
+}
+.places__title::after{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    height: 3px;
+    width: 253px;
+    background-color: #006DFE;
+}
+.places__cards{
+    display: flex;
+    gap: 57px;
+    flex-wrap: wrap;
+}
+.card__places{
+    display: flex;
+    flex-direction: column;
+    width: calc(33.333% - 51px);
+}
+.card__places:last-child{
+    margin-right: 0;
+}
+.card__places_img{
+    margin-bottom: 45px;
+    position: relative;
+}
+.card__places_img>img{
+    height: auto;
+    width: 100%;
+}
+.card__places_capt{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 16px 25px;
+    background: rgba(21, 24, 36, 0.6);
+}
+.card__places_city{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.card__places_city:hover{
+    text-decoration: underline;
+}
+.card__places_social{
+    display: flex;
+    align-items: center;
+}
+.card__places_social a, .card__places_social span{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.card__places_social span{
+    margin-right: 4px;
+}
+.card__places_social a:not(:last-child){
+    margin-right: 14px;
+}
+.card__places_social img:hover{
+    transform: scale(1.1);
+}
+.card__places_text{
+    margin-bottom: 32px;
+    line-height: 24px;
+    color: #102746;
+    padding-right: 25px;
+}
+.card__places_btn a{
+    line-height: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 19px;
+    background: #006DFE;
+}
+.card__places_btn a:hover{
+    opacity: 0.9;
+}
+
+.video__wrap{
+    position: relative;
+}
+.video__item{
+    padding-top: 56.25%;
+}
+.video__wrap iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    padding: 118px 167px 118px 194px;
+    background: #0E1D28;
+}
+.footer__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__links{
+    display: flex;
 }
